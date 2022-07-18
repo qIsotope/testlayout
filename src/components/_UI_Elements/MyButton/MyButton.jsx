@@ -13,7 +13,7 @@ export const MyButton = (props) => {
 			<button {...props} className={styles.hiring__apply}>
 				<span className={styles.hiring__applyButtonText}>{props.children}</span>
 				<img className={styles.hiring__applyButtonIcon}
-					src="./assets/longArrow.svg"
+					src="./assets/shortArrow.svg"
 					alt="longArrow" />
 			</button>
 		)
