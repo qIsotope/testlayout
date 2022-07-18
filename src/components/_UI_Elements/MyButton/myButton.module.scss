@@ -1,0 +1,65 @@
+.header__button{
+	padding: 14px 24px 14px 23px;	
+	background: var(--button-red);
+	border: none;
+	line-height: 20px;
+	text-transform: uppercase;
+	color: var(--color-white);
+	cursor: pointer;
+	transition: var(--transition);
+	font-family: Orelega One,cursive;
+	font-size: 18px;
+	font-weight: 400;
+		&:hover{
+			background: var(--button-red-hover);
+		}
+}
+
+.header__submit{
+	margin-top: 10px;
+	padding: 14px 77px 14px 78px;
+	background: var(--submit-color);
+	font-style: normal;
+	font-family: 'Orelega One';
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 20px;
+	text-transform: uppercase;
+	color: var(--color-white);
+	transition: var(--transition);
+	&:hover{
+		background: var(--submit-hover);
+	}
+}
+
+.hiring__apply{
+	padding: 15px 53px 15px 51px;
+	max-width: 280px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 20px;
+	color: var(--color-white);
+	font-family: "Orelega One";
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+	display: flex;
+	align-items: center;
+	background: var(--button-red);
+	transition: var(--transition);
+	&ButtonIcon{
+	  position: relative;
+	  left: 20px;
+	  transition: var(--transition);
+	}
+		&:hover{
+	  background: var(--button-red-hover);
+	  }
+	  
+	  &:hover &ButtonIcon{
+		  left: 25px;
+	  }
+  }
+
+

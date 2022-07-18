@@ -1,0 +1,8 @@
+.header__navigationItem{
+	color: var(--text-color);
+	cursor: pointer;
+	transition: var(--transition);
+		&:hover{
+		color: var(--text-color-hover);
+		}
+}

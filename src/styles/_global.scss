@@ -1,0 +1,20 @@
+body {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 29px;
+	font-family: "Orelega One";
+}
+
+.App {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+.container {
+	padding: 0px 15px;
+	max-width: 1170px;
+	margin: 0px auto;
+}
