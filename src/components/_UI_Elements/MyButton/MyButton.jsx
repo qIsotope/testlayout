@@ -12,7 +12,9 @@ export const MyButton = (props) => {
 		return (
 			<button {...props} className={styles.hiring__apply}>
 				<span className={styles.hiring__applyButtonText}>{props.children}</span>
-				<img className={styles.hiring__applyButtonIcon} src="./assets/longArrow.svg" alt="longArrow" />
+				<img className={styles.hiring__applyButtonIcon}
+					src="./assets/longArrow.svg"
+					alt="longArrow" />
 			</button>
 		)
 	}
